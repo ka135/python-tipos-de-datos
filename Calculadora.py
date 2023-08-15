@@ -23,5 +23,13 @@ match operacion:
         # Operación división:
         division = numero1 / numero2
         print("La división es " + str(division))
+    case '%':
+        # Operación módulo:
+        modulo = numero1 % numero2
+        print("El módulo es " + str(modulo))
+    case '^':
+        # Operación potencia:
+        potencia = numero1 ** numero2
+        print("La potencia es " + str(potencia))
     case _ :
         print("Operación inválida")
